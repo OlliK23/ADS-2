@@ -46,7 +46,7 @@ double sinn(double x, uint16_t count) {
     while (count > 0) {
         if (count % 2 == 0)
             result -= calcItem(x, 2*count-1);
-        else 
+        else
             result += calcItem(x, 2 * count - 1);
         --count;
     }
@@ -58,7 +58,7 @@ double cosn(double x, uint16_t count) {
     while (count > 0) {
         if (count % 2 == 0)
             result -= calcItem(x, 2 * count - 2);
-        else 
+        else
             result += calcItem(x, 2 * count - 2);
         --count;
     }
